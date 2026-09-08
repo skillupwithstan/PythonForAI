@@ -1,4 +1,3 @@
-
 # Reading a file
 fr = open("LogFile.txt","r")
 data = fr.read()
