@@ -18,10 +18,3 @@ print("Addition Result:" , round(firstno + secondno))
 firstno = int(input("Enter First Number:"))
 secondno = float(input("Enter Second Number:"))
 print("Addition Result:" , firstno + secondno)
-
-
-
-
-'''
-name = input("enter the value:")
-print(len(name))
