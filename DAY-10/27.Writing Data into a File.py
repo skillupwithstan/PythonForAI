@@ -22,19 +22,3 @@ print(data)
 fr.close()
 
 print("\n***************************")
-'''
-# Creating a file
-fw = open("LogFile123.txt","w")
-fw.write("Server-1\n")
-fw.write("Server-2\n")
-fw.close()
-
-# Reading a file
-fr = open("LogFile123.txt","r")
-print(fr)
-data = fr.read()
-print("After Create & Write:")
-print(data)
-fr.close()
-
-print("\n***************************")
