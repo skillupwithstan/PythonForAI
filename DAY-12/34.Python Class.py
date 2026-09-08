@@ -58,30 +58,3 @@ obj1.display()
 obj2.display()
 
 print("*********************************************")
-'''
-class Person:
-	# Constructor
-	def __init__(self, name):
-		self.name = name
-
-	# To get name
-	def getName(self):
-		return self.name
-
-	# To check if this person is employee
-	def isEmployee(self):
-		return False
-
-# Inherited or Sub class
-class Employee(Person):
-	# Here we return true
-	def isEmployee(self):
-		return True
-
-emp = Person("Arockia") # An Object of Person
-print(emp.getName(),":", emp.isEmployee())
-
-emp = Employee("Neo") # An Object of Employee
-print(emp.getName(),":", emp.isEmployee())
-
-'''
