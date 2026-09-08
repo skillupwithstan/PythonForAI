@@ -125,31 +125,5 @@ fruit = "I like Apple"
 fruit_new = fruit.replace('Apple', 'Mango')
 print(fruit)
 print(fruit_new)
-
 '''
-######################################################
-#Join multiple Strings - concatenates a list of strings together.
-#List to String
-x = " ".join(["This", "is", "Awesome"])  #"This" + "-" + "is" + "-" + "Awesome"
-print(x)
-'''
-######################################################
-#Exercise - 1:
-
-servername1 = input("Enter the server1 name:")
-servername2 = input("Enter the server2 name:")
-servername3 = input("Enter the server3 name:")
-
-print("Type 1: The entered server details are:",servername1,",",servername2,",",servername3)
-print("Type 2: The entered server details are:",servername1 + "," + servername2 + "," + servername3)
-print("Type 3: The entered server details are:", ",".join([servername1,servername2,servername3]))
-
-######################################################
-
-#Exercise - 2:
-
-cloud = input("Enter the cloud environments (Use ',' for multiple values) :")
-print(cloud.split(",")[0])
-
-######################################################
 '''
