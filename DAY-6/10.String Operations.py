@@ -126,4 +126,3 @@ fruit_new = fruit.replace('Apple', 'Mango')
 print(fruit)
 print(fruit_new)
 '''
-'''
