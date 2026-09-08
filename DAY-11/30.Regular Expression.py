@@ -96,21 +96,3 @@ print(re.findall("N\d","['N1','N3','Neo']"))
 
 pattern = re.compile("N\d")
 print(re.findall(pattern,"['N1','N3','Neo']"))
-#print(re.findall(re.compile("N\d"),"['N1','N3','Neo']"))
-#re.compile("N\d")
-
-# Open input file
-efile = open("Event_Logs.txt")
-# Read file content
-content = efile.read()
-# Print file content
-#print(content)
-dt = re.search("\d{4}\-\d{2}\-\d{2}",content)
-print("Date:",dt.group())
-
-pversion = re.compile('\d{1,2}\.\d{1,2}\.\d{4,5}')
-print("Product Versions:",re.findall(pversion,content))
-
-ipaddr = re.compile('\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}')
-print("IP Addresses:",re.findall(ipaddr,content))
-'''
