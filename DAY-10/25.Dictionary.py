@@ -35,16 +35,3 @@ print(list(numbers.values())[1])
 #To extract both dictionary key and values
 print(numbers.items())  #print(numbers)
 '''
-
-numbers1 = numbers
-print(numbers1)
-
-message="Welcome to Chennai"
-word=message[-7:]
-if(word=="Chennai"):
-    print("got it")
-else:
-    message=message[3:14]
-    print(message)
-
-'''
