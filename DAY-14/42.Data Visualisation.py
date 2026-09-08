@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-#import matplotlib.animation as anim
 
 # 1. Simple Data
 study_hours = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
