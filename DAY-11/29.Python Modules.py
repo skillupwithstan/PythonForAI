@@ -6,12 +6,7 @@ import random, math
 import os, sys
 
 #help('random')
-
-#help('str.split')
 '''
-
-# dir() function used to get a list containing all attributes of a module
-#print(dir('random'))
 
 # Random module
 import random
