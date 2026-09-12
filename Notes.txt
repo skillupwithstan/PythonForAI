@@ -1,0 +1,288 @@
+Day - 8
+-------
+
+Collections
+------------
+
+1. String --> ""
+2. List --> []
+3. Tuple --> ()
+4. Set --> {}
+5. Frozen Set -->
+6. Dictionary -->
+
+key-value pair
+
+age: 30
+name: kumar
+address: plot 8
+
+incident_number: INC00022
+assigned_to: "Wintel Team"
+
+File system operations:
+-----------------------
+
+mode: Read = r. Write = w, Append = a
+
+1. Read
+
+open(filename) or open(filename,"r")
+
+Day - 9
+-------
+
+File Write
+File Append
+
+Python Modules
+--------------
+
+Lib, Packages, Modules --> Reusable component
+
+Square -> 2*2
+Cube -> 2*2*2
+
+OOPS
+----
+
+Object Oriented Programming System --> 
+
+Object --> Any real world entity --> 
+Properties --> Defined values/names (read only)
+Methods --> To perform any actions
+Class --> Blueprint of objects
+
+    Object --> Properties --> Methods
+      Car -->  Model, Color --> Start, Stop, Break
+      Service --> Name, Desc, Status --> Start, Stop, Restart
+      File --> Name, Size, Type --> Read, Create, Modify, Delete, Rename, Move, Copy ...
+
+
+Modules/Packages
+
+class Service
+{
+   string name;
+   string status;
+   void start()
+   {
+      name.start()
+   }
+
+   void stop()
+   {
+      name.stop()
+   }
+}
+
+class Process
+{
+
+}
+
+Day - 10
+--------
+
+Regular expression (regex) --> pattern matching 
+
+special chars: !@#$%^&:
+
+\\path -- > escape char
+\n --> new line
+\t --> tab space
+
+
+IP Address Pattern
+0.3.5.6
+255.20.3.1
+
+{1-3}.{1-3}.{1-3}.{1-3}
+\d[0-255].\d[0-255].\d[0-255].\d[0-255]
+
+\d --> digit
+\s --> space
+\w --> word
+
+* -->  >= 0
++ --> >= 1
+? --> 1 >=0
+
+Date & time
+-----------
+
+%d --> day
+%m --> month
+%Y --> year
+
+%H --> hours
+%M --> minutes
+%S --> seconds
+
+Day - 11
+--------
+
+* User defined function
+1. without passing input parameters/arguments ()
+2. passing input parameters/arguments (a,b)
+
+
+# Method-1:
+function function_name(a,b)
+{
+  c = a+b
+  return c
+}
+
+sum = function_name(10,20)
+print(sum)
+
+# Method-2:
+function function_name(a,b)
+{
+  c = a+b
+  print(c)
+}
+
+function_name(10,20)
+
+
+* Exception handling --> Error handling
+
+Coding --> Syntax + Logic
+
+1. Known issue --> plan- A, plan-B
+2. Unknown --> Dynamic data
+
+non-python: try-catch-finally
+python: try-except-finally
+
+try:
+  plan-A  or main logic
+  open()
+  write()
+expect:
+  plan-B or report
+finally:
+  close()
+
+a = [1,2,3]
+
+a[3] --> error index out of range
+
+class Exception:
+  type error
+  index out of range
+  zero division
+  
+* Classes 
+
+DAY-12
+-------
+
+Modules -> 1. Built-in modules
+           2. User defined modules
+
+single word
+lowercase
+no digit or special char
+modulename.py
+
+pip --> python package manager
+
+pip install <modulename>
+pip upgrade <modulename>
+pip remove <modulename>
+
+python module installation:
+python -m pip install <modulename>
+
+DAY-13
+------
+
+Standard Deviation
+Random & Statistics
+
+Pandas - Module
+
+Pandas Basics
+-------------
+Series
+DataFrame
+
+--> Data Cleaning
+
+Day-14
+------
+--> Data Manipulation
+
+avg/mean = sum(all elements) / no. of element
+         = 150000/2 = 75000 (IT)
+         = 105000/2 = 52500 (HR)
+         = 60000/1 = 60000 (Finance)
+
+Data Visualisation
+
+RGB - Red Green Blue
+
+
+
+Machine Learning
+ --> ML Core Concepts
+
+Day-15
+------
+ --> ML Core Concepts
+ --> Classification Models
+ --> Model Evaluation
+
+Day-16
+------
+Unsupervised learning
+Reinforcement learning
+NLP - Natural language processing
+nltk - python module
+
+Text preprocessing
+
+Day-17
+------
+
+Feature Extraction (Vectorization)
+Sentiment Analysis
+Transformers 
+
+
+Day-18
+------
+
+Computer Vision Basics
+CNN
+Image Classifier/Prediction
+
+Day-19
+-------
+
+Script Path: https://github.com/skillupwithstan/PythonForAI/tree/main
+
+Agentic AI
+----------
+MCP
+RAG
+Tools
+Embedding
+Guardrails
+
+GenAI
+-----
+gemini
+openai
+anthropic
+
+==> LLMs
+==> Local LLMs
+
+Google Flash
+
+GPU
+QPU
